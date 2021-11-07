@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.cbitler.deathplugin.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PlayerEntityMixin",
+    "SpeedMixin",
+    "TeleportToSpecificPlayerSpectatorCommandMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+    "SpeedMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

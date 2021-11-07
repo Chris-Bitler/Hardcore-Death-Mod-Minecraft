@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "hardcore-death-plugin",
+  "version": "${version}",
+  "name": "Hardcore Death Plugin",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.cbitler.deathplugin.client.DeathPluginClient"
+    ],
+    "main": [
+      "io.cbitler.deathplugin.DeathPlugin"
+    ]
+  },
+  "mixins": [
+    "death-plugin.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

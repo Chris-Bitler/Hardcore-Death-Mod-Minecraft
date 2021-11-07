@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "W W",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "hardcore-death-plugin:empty_vial",
+    "count": 1
+  }
+}

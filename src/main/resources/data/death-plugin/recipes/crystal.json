@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "hardcore-death-plugin:revive_crystal"}
+  ],
+  "result": {
+    "item": "hardcore-death-plugin:crystal",
+    "count": 2
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "LGL",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "L": {
+      "tag": "hardcore-death-plugin:lives"
+    },
+    "G": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "item": "hardcore-death-plugin:revive_crystal",
+    "count": 1
+  }
+}
